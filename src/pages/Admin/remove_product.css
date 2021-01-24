@@ -1,0 +1,28 @@
+.remove_prod{
+    width: 100%;
+    max-width: 100%;
+}
+@media only screen and (max-width: 1250px) {
+    .remove_prod{
+        width: 100%;
+    }
+  }
+.to_be_removed{
+    width: 50%;
+    max-width: 100%;
+}
+@media only screen and (max-width: 1250px) {
+    .to_be_removed{
+        width: 70%;
+    }
+}
+        @media only screen and (max-width: 900px) {
+          .to_be_removed{
+              width: 100%;
+          }
+        }
+  @media only screen and (max-width: 690px) {
+    .to_be_removed{
+        width: 100%;
+    }
+  }

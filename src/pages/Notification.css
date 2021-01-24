@@ -1,0 +1,74 @@
+.notification-main-div-admin-read {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right,rgb(253,200,48), 	
+  rgb(243,115,53));
+  padding: 1em;
+  margin-bottom:20px;
+}
+.notification-main-div-admin-unread {
+  display: flex;
+  justify-content: space-between;
+  /* background-image: linear-gradient(to right, #fdc830, #f37335); */
+  background-image: linear-gradient(to right,rgba(253,200,48,0.5), 	
+  rgba(243,115,53,0.5));
+  padding: 1em;
+  margin-bottom:20px;
+}
+.notification-main-div-seller {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #f85032, #e73827);
+  padding: 1em;
+}
+.notification-main-div-buyer {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #74ebd5, #acb6e5);
+  padding: 1em;
+}
+.notification-details {
+  flex: 1;
+  max-width: 1100px;
+}
+.notification-date {
+  flex: 1;
+  max-width: 300px;
+}
+.notification-props {
+  max-width: 800px;
+}
+.notification-date-time {
+  color: black;
+}
+.notification-main-div {
+  padding: 1.5em;
+  border-bottom: 1px solid gray;
+}
+.notification-props-name {
+  max-width: 800px;
+}
+.notification-close-div{
+  flex: 0.15;
+}
+@media only screen and (max-width: 560px) {
+  .notification-main-div-admin-read {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .notification-main-div-admin-unread {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .notification-props{
+      text-align: justify;
+  }
+  .notification-main-div-seller {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .notification-main-div-buyer {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}

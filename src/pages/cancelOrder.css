@@ -1,0 +1,42 @@
+.cancel-container{
+ margin-top: 4%;
+    height: auto;
+    margin-bottom: 6%;
+}
+.cancel-yes{
+    width: 100px;
+}
+.cancel-no{
+    width: 100px;
+}
+.reason-input-div{
+    width: 530px;
+    border: none;
+    padding: .5em;
+    margin-top: 10px;
+    background-color:lightgray;
+}
+.cancellation-select{
+    border: none;
+    padding: .3em;
+     /* background-color: lightgray;  */
+    border-radius: 10px;
+} 
+.cancellation-option{
+    background: transparent !important;
+    color: black
+}
+@media only screen and (max-width: 660px){
+    .cancel-h1{
+        font-size: 25px;
+    }
+    .cancel-h5{
+        font-size: 18px;
+    }
+    .reason-input-div{
+        width: 300px;
+    }
+    .cancel-confirm{
+        font-size: 17px;
+    }
+}

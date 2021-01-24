@@ -1,0 +1,18 @@
+.single-address{
+    display: flex;
+    line-height: 170%;
+}
+
+.single-address div{
+    display: grid;
+    padding: 2% 0%;
+    padding-right: 2%;
+}
+
+.single-address > div:first-child > span{
+    font-weight: 100 !important;
+}
+
+.h3-p, .p-p {
+    font-size: 1rem;
+}

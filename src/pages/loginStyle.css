@@ -1,0 +1,29 @@
+.form {
+    background:lightgray;
+    width: 35vw;
+    height: 44vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    transform: translate(0, -10%);
+    border-radius: 10px;
+    box-shadow: lightgrey 0 6px 12px;
+    padding: 1.7em;
+    align-items: center;
+}
+.back {
+    align-self: flex-start;
+}
+body{
+    background: rgb(241, 241, 241);
+}
+.input-grp{
+    margin: 1em 0;
+}
+@media screen and (max-width: 750px){
+    .form{
+        width: auto;
+        height: auto;
+    }
+}

@@ -1,0 +1,140 @@
+
+.received-subdiv{
+    display: flex;
+    max-width: 800px;
+    position: relative;
+    left: 10%;
+}
+.received-content-div{
+    display: flex;
+    flex-direction: column;
+}
+.received-image{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.order-received-name{
+    margin: 0;
+    max-width: 600px;
+    text-align: left;
+    padding: 0;
+}
+.received-content-details p{
+    margin:1px;
+    padding: 0;
+}
+.received-content-details{
+    display: inline-flex;
+}
+.received-contentp{
+    border-right: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 200px;
+}
+.received-content-shipping{
+    display: flex;
+}
+.recieved-order-confirm{
+    position: relative;
+    top: -15%;
+}
+.received-order-cancel{
+    position: relative;
+    top: -15%;
+    border: 2px solid red;
+    background-color: white;
+    color: red;
+    border-radius:5px;
+}
+.received-order-address{
+    margin:0p;
+    padding:0px;
+    max-width: 350px;
+    margin-top: -12px;
+}
+.received-after-confirm{
+    display: none;
+}
+.received-after-cancel{
+display: none;
+}
+@media only screen and (max-width: 660px){
+    .received-subdiv{
+        position: relative;
+        left: -3%;
+        border-bottom: 2px solid black;
+    }
+    .order-received-name{
+        max-width: 240px;
+        border-bottom: 1px solid gray;
+        margin-bottom: 8px;
+    }
+    .received-order-address{
+        position: relative;
+        left: -25%;
+        margin-top: -7px;
+        width: max-content;
+      
+    }
+    .received-content-shipping{
+        position: relative;
+        left: -25%;
+        margin-top: 5px;
+        max-width: 100%;
+    }
+    .recieved-order-confirm {
+        display: none;
+    }
+    .received-order-cancel{
+        display: none;
+    }
+    .received-image{
+        margin-right: 10px;
+    }
+    .received-resposive-btn{
+        display: flex;
+        position: relative;
+        left: -22%;
+        margin-bottom: 40px;
+    }
+    .received-after-confirm{
+        display: block;
+    }
+    .received-after-cancel{
+        display:block;
+        border: 2px solid red;
+        background-color: white;
+        color: red;
+        border-radius:5px;
+        }
+}
+@media only screen and (max-width: 350px){
+    .received-image{
+        width: 80px;
+        height: 80px;
+    }
+    .order-received-name{
+        max-width: 220px;
+        font-size: 14px;
+    }
+    .received-content-details p{
+        font-size: 15px;
+    }
+    .received-heading{
+        font-size: 30px;
+    }
+    .received-content-shipping{
+        position: relative;
+        left: -25%;
+        font-size: 14px;
+    }
+    .received-order-address{
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .received-resposive-btn{
+        position: relative;
+        left: -26%;
+    }
+}

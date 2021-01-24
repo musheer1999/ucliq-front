@@ -1,0 +1,11 @@
+.userform{
+display: flex;
+width: max-content;
+position: relative;
+left:25%;
+}   
+@media only screen and (max-width: 944px){
+.userform{
+    left:0%;
+}
+}

@@ -1,0 +1,9 @@
+.contain{
+    width: 50%;
+    max-width: 100%;
+}
+@media only screen and (max-width: 771px) {
+    .contain{
+        width: 100%;
+    }
+  }

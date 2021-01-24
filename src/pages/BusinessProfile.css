@@ -1,0 +1,14 @@
+.alertForDocs{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.show{
+    background-color: #fff5f5;
+}
+
+.alert-danger {
+    color: black;
+    border-color: #ff001b;
+}

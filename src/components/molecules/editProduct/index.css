@@ -1,0 +1,47 @@
+.edit-outer {
+  padding: 20px;
+  margin: 20px;
+  width: 1100px;
+  margin-left: 110px;
+}
+
+.edit-inner {
+  display: flex;
+  padding: 20px;
+}
+
+.edit-name {
+  font-size: 150%;
+  text-align: center;
+}
+
+.edit-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  /* margin: 8px 0; */
+}
+
+.edit-submit {
+  padding-right: 36px;
+  float: right;
+}
+
+@media only screen and (max-width: 420px) {
+  .edit-outer {
+    padding: 0;
+    width: auto;
+    margin-left: 0;
+    margin: 0;
+  }
+
+  .edit-name {
+    font-size: 120%;
+  }
+
+  .edit-submit {
+    padding-left: 130px;
+  }
+}

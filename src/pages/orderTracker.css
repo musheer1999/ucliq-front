@@ -1,0 +1,220 @@
+ .tracker-order-li {
+    list-style: none;
+    height: 13vh;
+    position: relative;
+}
+.tracker-newdiv{
+    position: relative;
+    left: 27%;
+}
+.tracker-statusdiv{
+    position: relative;
+    left: 27%;
+    max-width: 600px;
+}
+.tracker-cost-h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tracker-name{
+    position: relative;
+    left: 15%;
+    top: -72%;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tracker-productdetail{
+    flex: 2;
+    max-width: 500px;
+    padding: 1em;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.tracker-icons{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.tracker-order-li.active{
+    color: #F35F54;
+}
+.tracker-icons-last{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid green;
+}
+.tracker-icons::after{
+    content: '';
+    width: 3.4px;
+    position:block;
+    position: absolute;
+    height: 120px;
+    left:4.4%;
+    background-color: gray;
+    z-index: -1;
+}
+.tracker-icons.active::after{
+    background-color:#F35F54;
+}
+.tracker-productimage{
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+.tracker-product{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tracker-productname{
+    max-width: 30em;
+}
+.tracker-subcat{
+display: flex;
+flex-direction: column;
+}
+.tracker-orderimg{
+    background-color: black;
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+}
+.tracker-suborderlist{
+    display: flex;
+}
+.tracker-sublistp{
+    max-width: 400px;
+}
+.tracker-sublist p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color:blue;
+}
+.tracker-heading{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tracker-sublist p:first-child{
+    font-size: 16px;
+    color: black;
+}
+.tracker-productsummmary{
+    max-width: 500px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.tracker-summaryh1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tracker-costsummary{
+flex: 2;
+max-width: 600px;
+padding: 1em;
+margin-bottom: 20px;
+border-radius: 20px;
+}
+.tracker-address{
+ max-width: 500px;
+ padding: 1em;
+ border-radius: 20px;
+ margin-bottom: 20px;
+}
+.tracker-date{
+    position: relative;
+    left: 15%;
+    top:-90%;
+}
+.tracker-support{
+    max-width: 500px;
+    padding: 1em;
+    border-radius: 20px;
+}
+.tracker-orderdate{
+    margin-left: 7em;
+}
+.tracker-orderqty{
+    margin-left: 9em;
+}
+@media only screen and (max-width: 770px){
+    .tracker-name{
+        left: 30%;
+        top:-73%;
+    } 
+    .tracker-icons::after{
+        left: 9%;
+    }
+    .tracker-orderimg{
+        margin-left: -15px;
+        width: 100px;
+        height: 100px;
+    }
+    .tracker-sublistp{
+        font-size: 17px;
+        max-width: 420px;
+    }
+    .trackerproduct-price{
+        margin-left: 5px;
+    }
+    .tracker-date{
+        position: relative;
+        left: 30%;
+        top: -100%;
+    }
+    .tracker-div-2{
+        flex-direction: column;
+    }
+    .tracker-div{
+        flex-wrap: wrap;
+    }
+    .tracker-orderdate{
+        font-size: 15px;
+        width: max-content;
+    }
+    .tracker-orderqty{
+        font-size: 14px;
+    }
+    .tracker-address{
+        left: 0;
+    }
+    .tracker-newdiv{
+        position: relative;
+        left: 0%;
+    }
+    .tracker-statusdiv{
+      left: 0%;
+    }
+    .tracker-orderdate{
+        margin-left: 1.5em;
+    }
+    .tracker-orderqty{
+        margin-left:2.8em;
+    }
+}
+@media only screen and (max-width: 350px){
+    .tracker-icons::after{
+        left: 10.5%;
+    }
+    .tracker-orderimg{
+        margin-left: -20px;
+        width: 100px;
+        height: 80px;
+    }
+    .tracker-sublistp{
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .tracker-name{
+        top:-80%;
+    }
+    .tracker-date{
+        top:-100%
+    } 
+   
+}

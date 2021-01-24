@@ -1,0 +1,34 @@
+.allorders{
+  max-height: 300px;
+}
+.allorders-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 80%;
+    border: 1px solid #ddd;
+    position: relative;
+    left: 10%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even)
+  {
+    background-color: white;
+  }
+  .order-full-detail {
+    max-width: max-content;
+  }
+  @media only screen and (max-width: 660px){
+    .allorders-table{
+      position: relative;
+      left: 0;
+    }
+    .order-full-detail {
+      width: max-content;
+    }
+    
+  }
